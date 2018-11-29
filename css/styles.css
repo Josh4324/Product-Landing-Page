@@ -11,7 +11,8 @@ body{
   position:fixed;
   width:100%;
   top:0px;
-  z-index: 1;
+  z-index: 10;
+  background-color: white;
 }
 
 img#header-img{
@@ -98,6 +99,10 @@ a {
   line-height: 0.1em;
 }
 
-.sec{
-
+#video{
+  margin-left: auto;
+  margin-right: auto;
+  width:600px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
