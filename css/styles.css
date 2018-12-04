@@ -5,19 +5,20 @@ body{
   color: black;
   font-family: monospace;
   font-size: 14px;
+  max-width: 100%;
 }
 
 /*headers*/
 #header{
   position:fixed;
-  width:100%;
+  max-width:100%;
   top:0px;
   z-index: 10;
   background-color: white;
 }
 
 img#header-img{
-  width:200px;
+  width:40%;
   height:100px;
 }
 
@@ -26,17 +27,27 @@ img#header-img{
 }
 
 #nav-bar{
-  float:right;
-  display:inline;
   margin-top: 25px;
+  display:inline;
+  width: 60%;
+  float: right;
 }
 
 .nav-link{
   list-style: none;
-  display: inline;
-  padding-right: 100px;
   font-size: 16px;
+  margin-right: 25px;
+
+
 }
+
+.list{
+  display:flex;
+  padding-left: 0px;
+  float: right;
+}
+
+
 
 a {
   text-decoration: none;
@@ -48,12 +59,13 @@ a {
 #main{
   position:relative;
   top:100px;
+  max-width: 100%;
 }
 
 #first-section{
   margin-left: auto;
   margin-right: auto;
-  width: 450px;
+  max-width: 60%;
   text-align: center;
 }
 
@@ -63,7 +75,7 @@ a {
 }
 
 #email{
-  width:250px;
+  width:70%;
   height: 20px;
 }
 
@@ -81,7 +93,7 @@ a {
 .section_center{
   margin-left: auto;
   margin-right: auto;
-  width:700px;
+  width:70%;
   margin-top: 100px;
 }
 
@@ -97,15 +109,25 @@ a {
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 0px;
-  line-height: 0.1em;
+  text-align: center;
 }
 
 #video{
-  margin-left: auto;
-  margin-right: auto;
-  width:600px;
   margin-top: 10px;
   margin-bottom: 30px;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
+.video{
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#vid{
+
 }
 
 #section2{
@@ -115,6 +137,7 @@ a {
   margin-right: auto;
   width:70%;
   padding: 20px;
+  text-align: center;
 
 }
 
@@ -155,8 +178,6 @@ a {
   background-color: yellow;
   text-align: center;
   margin-bottom: 20px;
-  margin-left: 30%;
-  margin-right: 30%;
 }
 
 #footer{
