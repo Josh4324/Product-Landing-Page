@@ -29,7 +29,7 @@ The Product Landing Page shows a group of products that you are for sale
 
 
 
-To check the page, click this link https://josh4324.github.io/Frogger-Arcade-Game/
+To check the page, click this link https://josh4324.github.io/Product-Landing-Page/
 
 
 ## Contributing
