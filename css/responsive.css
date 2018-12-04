@@ -65,8 +65,14 @@
     width:100%;
   }
 
-  .list{
-
+  .icon{
+    display:none;
+    opacity: 0;
   }
+
+  .sec_left{
+    display: none;
+  }
+
 
 }
