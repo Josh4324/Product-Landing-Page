@@ -130,21 +130,17 @@ a {
   margin-bottom: 0px;
 }
 
-#video{
+.video{
   margin-top: 10px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
 
-.video{
+.video1{
   max-width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-}
-
-#vid{
-
 }
 
 #section2{
